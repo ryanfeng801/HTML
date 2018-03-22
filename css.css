@@ -1,0 +1,110 @@
+h1{color: blue; text-align:center;text-shadow: 5px 5px 5px red;}
+
+nav ul {
+            font-family: Arial, Verdana;
+            font-size: 20px;
+            margin: 0;
+            padding: 0;
+    		list-style: none;
+			
+       }
+ 
+nav ul li {
+               display: block;
+               position: relative;
+               float: left;
+         }
+ 
+nav ul li ul {
+                display: none;
+            }
+ 
+nav ul li a {
+                  display: block;
+                  text-decoration: none;
+                  padding: 7px 15px 3px 15px;
+                  background: grey;
+                  color: yellow; 
+                  margin-left: 1px;
+                  white-space: nowrap; /* normal  */
+                  height:30px; /* Width and height of top-level nav items */
+                  width:90px;
+                  text-align:center;
+            }
+ 
+nav ul li a:hover {
+                       background: red;
+                      }
+ 
+nav ul li:hover ul {
+                     display: block;
+                     position: absolute;
+					 
+                   }
+
+nav  ul li:hover ul li {
+                    float: none;
+                    font-size: 11px;
+                  }
+ 
+nav ul li:hover ul li a {
+                    background: purple;
+                    height:30px; /* Height of lower-level nav items is shorter than main level */
+                 }
+ 
+nav li:hover li a:hover {
+                            background: black;
+                          }
+ 
+nav ul li ul li a {
+                       text-align:right; /* Top-level items are centered, but nested list items are left-aligned */
+                    } 
+div.container { 
+        width: 80%;
+        margin: auto;
+      }					
+header {
+          height: 20%;         
+        }
+#sidebar1 {
+        width: 10%;
+        float: left;
+      }
+      
+#sidebar2 {
+              width: 80%;
+              float: left;
+             }
+             
+#sidebar3 { width: 10%;
+            float: left;
+           }
+footer {
+         clear :both;
+         text-align: right;
+       }
+
+        a.one:link {color:purple;}
+		a.one:visited {color:red;}
+		a.one:hover {color:blue;}
+
+		a.two:link {color:purple;}
+		a.two:visited {color:red;}
+		a.two:hover {font-size:150%;}
+
+		a.three:link {color:red;}
+		a.three:visited {color:red;}
+		a.three:hover {background:#66ff66;}
+
+		a.four:link {color:blue;}
+		a.four:visited {color:purple;}
+		a.four:hover {font-family:monospace;}
+
+div.in{ text-align: center;
+            margin: auto;				
+            border:5px solid grey;	
+            box-shadow : 20px 20px 20px blue;	
+            padding:1px;
+			width:50%
+        			
+	} 		

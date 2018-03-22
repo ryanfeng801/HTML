@@ -1,0 +1,71 @@
+body { background-color: lightgray}
+
+.display { 
+             
+             background-color : white;            
+             margin: auto;				 
+             width: 50%; 
+			 padding-left: 30px;
+			 box-shadow: 0 0 5px 5px  gray;			                           			 
+			 padding-left: 20px;
+			 padding-right: 20px;
+        			 
+		}
+
+.second {
+            
+			border: 1px solid gray;
+
+}
+
+		
+.one{  background-color:red;
+       color :white;
+	   padding-top :1px;
+	   padding-left: 10px;
+     
+}		
+
+.two{  
+
+padding-left: 10px;
+
+}
+
+form {
+
+       width: 80%;
+       margin:auto;
+}
+
+label {
+            /* To make sure that all labels have the same size and are properly aligned */
+            display: inline-block;
+            width: 140px;
+            text-align: right;
+        }
+select{
+
+box-shadow: 2px 2px 2px gray;
+width:200px;
+height:30px;
+
+}
+
+.input1 input {
+  
+				   width:300px;
+                   height:30px;                  
+			       box-shadow: 2px 2px 2px gray;
+				   border:1px solid gray;			
+
+
+}
+
+input:focus {
+
+border-color:green;
+
+}
+
+
